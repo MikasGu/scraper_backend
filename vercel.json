@@ -4,7 +4,7 @@
     { "src": "/(.*)", "dest": "/app.py" }
   ],
   "functions" : {
-    "api/**/*": {
+    "api/*": {
       "runtime": "now-python@3.0"
     }
   }
