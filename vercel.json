@@ -2,7 +2,6 @@
   "version": 2,
   "functions": {
     "api": {
-      "handler": "app.handler",
       "runtime": "python3.8",
       "includeFiles": ["app.py"]
     }
