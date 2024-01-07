@@ -2,7 +2,8 @@
   "version": 2,
   "functions": {
     "api": {
-      "runtime": "now-python@3.10.6"
+      "runtime": "now-python@3.10.6",
+      "includeFiles": "app.py"
     }
   },
   "routes": [
