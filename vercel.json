@@ -2,8 +2,7 @@
   "version": 2,
   "functions": {
     "api": {
-      "runtime": "python3.8",
-      "includeFiles": ["app.py"]
+      "runtime": "python3.8"
     }
   },
   "routes": [
