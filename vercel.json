@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "routes": [
-    { "src": "/(.*)", "dest": "/app.py" }
-  ],
   "functions": {
     "api": {
-      "src": "app.py",
-      "runtime": "@now/python3.6"
+      "handler": "app.handler",
+      "runtime": "python3.8",
+      "includeFiles": ["app.py"]
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api"
+    }
+  ]
 }
