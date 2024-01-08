@@ -1,10 +1,11 @@
-**Travel Offers API**
+# 🌐 Travel Offers API
 
 This repository hosts a Python Flask web application that serves as an API for scraping travel offers from three prominent travel agencies: Makalius, Air Guru, and TezTour. The application utilizes a SQLite database for storing scraped offers, with data accessible through various API endpoints. The scraping process employs BeautifulSoup for HTML parsing and Selenium for dynamic content interaction.
 
 ---
 
-**Key Features:**
+## Key Features 🚀
+
 - Scraping offers from Makalius, Air Guru, and TezTour.
 - SQLite database integration to store and manage scraped data.
 - API endpoints for initiating scraping, retrieving offers by country codes, and obtaining total offer counts for each country.
@@ -14,13 +15,14 @@ This repository hosts a Python Flask web application that serves as an API for s
 
 ---
 
-**How to Use:**
+## How to Use 🛠️
+
 1. Run the application.
 2. Access the API endpoints for scraping and retrieving travel offers.
 
 ---
 
-**Endpoints:**
+## Endpoints 🚪
 
 1. **Root Endpoint ("/")**
    - **Method:** GET
@@ -55,7 +57,10 @@ This repository hosts a Python Flask web application that serves as an API for s
       curl http://localhost:5000/total_offers/all
       ```
 
-**Dependencies:**
+---
+
+## Dependencies 📦
+
 - Flask
 - BeautifulSoup
 - Selenium
